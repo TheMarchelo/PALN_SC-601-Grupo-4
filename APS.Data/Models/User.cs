@@ -21,7 +21,9 @@ public partial class User
 
     public virtual ICollection<Account> Accounts { get; set; } = new List<Account>();
 
-    public virtual Authorization? Authorization { get; set; }
+    public virtual ICollection<Authorization> Authorizations { get; set; } = new List<Authorization>();
+
+    public virtual ICollection<Equipo> Equipos { get; set; } = new List<Equipo>();
 
     public virtual ICollection<Notification> Notifications { get; set; } = new List<Notification>();
 }

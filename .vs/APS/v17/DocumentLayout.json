@@ -1,0 +1,355 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\github\\PALN_SC-601-Grupo-4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\pages\\formularioingreso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\pages\\formularioingreso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\aps.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\aps.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\pages\\formularioingreso.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\pages\\formularioingreso.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.data\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|solutionrelative:aps.data\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.data\\models\\apdatadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|solutionrelative:aps.data\\models\\apdatadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Users\\Create.cshtml",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Users\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAA0AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T06:49:23.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "APS.Web\\Models\\RegisterModel.cs",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "APS.Web\\Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:39:43.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "APS.Web\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Models\\LoginModel.cs",
+              "RelativeToolTip": "APS.Web\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:39:39.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Accounts\\Login.cshtml",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Accounts\\Login.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T05:39:21.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "APS.Web\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "APS.Web\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:38:14.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T05:37:27.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Program.cs",
+              "RelativeDocumentMoniker": "APS.Web\\Program.cs",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Program.cs",
+              "RelativeToolTip": "APS.Web\\Program.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:03:03.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T05:23:55.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "APS.Web\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T04:55:20.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormularioIngreso.cshtml.cs",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Pages\\FormularioIngreso.cshtml.cs",
+              "RelativeDocumentMoniker": "APS.Web\\Pages\\FormularioIngreso.cshtml.cs",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Pages\\FormularioIngreso.cshtml.cs",
+              "RelativeToolTip": "APS.Web\\Pages\\FormularioIngreso.cshtml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:55:20.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APS.Web",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\APS.Web.csproj",
+              "RelativeDocumentMoniker": "APS.Web\\APS.Web.csproj",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\APS.Web.csproj",
+              "RelativeToolTip": "APS.Web\\APS.Web.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-22T04:38:20.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T04:31:17.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T04:30:59.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T04:30:55.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApdatadbContext.cs",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\ApdatadbContext.cs",
+              "RelativeDocumentMoniker": "APS.Data\\Models\\ApdatadbContext.cs",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\ApdatadbContext.cs",
+              "RelativeToolTip": "APS.Data\\Models\\ApdatadbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:24:15.507Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "8cd3a07c-06a3-4e1f-ab0d-f81f9086522f",
+        "Display": 0,
+        "X": 204,
+        "Y": 225,
+        "Width": 1453,
+        "Height": 557,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormularioIngreso.cshtml",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Pages\\FormularioIngreso.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Pages\\FormularioIngreso.cshtml",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Pages\\FormularioIngreso.cshtml",
+              "RelativeToolTip": "APS.Web\\Pages\\FormularioIngreso.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T04:55:19.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "1d0b3e41-f4b9-4e3b-a89b-388e6c784fe9",
+        "Display": 0,
+        "X": 983,
+        "Y": 326,
+        "Width": 491,
+        "Height": 436,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Equipo.cs",
+              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\Equipo.cs",
+              "RelativeDocumentMoniker": "APS.Data\\Models\\Equipo.cs",
+              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\Equipo.cs",
+              "RelativeToolTip": "APS.Data\\Models\\Equipo.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA4wBMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:51:43.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

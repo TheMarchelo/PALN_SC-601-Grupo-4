@@ -17,7 +17,11 @@ public partial class ApdatadbContext : DbContext
 
     public virtual DbSet<Account> Accounts { get; set; }
 
+    public virtual DbSet<Aprobacione> Aprobaciones { get; set; }
+
     public virtual DbSet<Authorization> Authorizations { get; set; }
+
+    public virtual DbSet<Equipo> Equipos { get; set; }
 
     public virtual DbSet<Notification> Notifications { get; set; }
 
@@ -31,7 +35,7 @@ public partial class ApdatadbContext : DbContext
     {
         modelBuilder.Entity<Account>(entity =>
         {
-            entity.HasKey(e => e.AccountId).HasName("PK__account__46A222CD4EDA2048");
+            entity.HasKey(e => e.AccountId).HasName("PK__account__46A222CDB9FFDFD3");
 
             entity.ToTable("account");
 
@@ -52,28 +56,90 @@ public partial class ApdatadbContext : DbContext
 
             entity.HasOne(d => d.User).WithMany(p => p.Accounts)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__account__user_id__3E52440B");
+                .HasConstraintName("FK_account_user_id");
+        });
+
+        modelBuilder.Entity<Aprobacione>(entity =>
+        {
+            entity.HasKey(e => e.AprobacionId).HasName("PK__aprobaci__841444415F806074");
+
+            entity.ToTable("aprobaciones");
+
+            entity.Property(e => e.AprobacionId).HasColumnName("aprobacion_id");
+            entity.Property(e => e.Criterio)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("criterio");
+            entity.Property(e => e.Cumple).HasColumnName("cumple");
+            entity.Property(e => e.EquipoId).HasColumnName("equipo_id");
+
+            entity.HasOne(d => d.Equipo).WithMany(p => p.Aprobaciones)
+                .HasForeignKey(d => d.EquipoId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__aprobacio__equip__6D0D32F4");
         });
 
         modelBuilder.Entity<Authorization>(entity =>
         {
+            entity.HasKey(e => e.Id).HasName("PK__authoriz__3213E83F41813066");
+
             entity.ToTable("authorizations");
 
-            entity.Property(e => e.Id)
-                .ValueGeneratedOnAdd()
-                .HasColumnName("id");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Pages).HasColumnName("pages");
             entity.Property(e => e.UserId).HasColumnName("userId");
 
-            entity.HasOne(d => d.IdNavigation).WithOne(p => p.Authorization)
-                .HasForeignKey<Authorization>(d => d.Id)
+            entity.HasOne(d => d.User).WithMany(p => p.Authorizations)
+                .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Users_Authorizations");
+                .HasConstraintName("FK_authorizations_userId");
+        });
+
+        modelBuilder.Entity<Equipo>(entity =>
+        {
+            entity.HasKey(e => e.EquipoId).HasName("PK__equipos__50EAD2BF9783599C");
+
+            entity.ToTable("equipos");
+
+            entity.Property(e => e.EquipoId).HasColumnName("equipo_id");
+            entity.Property(e => e.ContraseñaEquipo)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("contraseña_equipo");
+            entity.Property(e => e.Descripcion)
+                .HasColumnType("text")
+                .HasColumnName("descripcion");
+            entity.Property(e => e.FechaIngreso)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("fecha_ingreso");
+            entity.Property(e => e.GarantiaConLocal).HasColumnName("garantia_con_local");
+            entity.Property(e => e.Marca)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("marca");
+            entity.Property(e => e.Modelo)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("modelo");
+            entity.Property(e => e.MotivoIngreso)
+                .HasColumnType("text")
+                .HasColumnName("motivo_ingreso");
+            entity.Property(e => e.NombreCliente)
+                .HasMaxLength(150)
+                .IsUnicode(false)
+                .HasColumnName("nombre_cliente");
+            entity.Property(e => e.UsuarioId).HasColumnName("usuario_id");
+
+            entity.HasOne(d => d.Usuario).WithMany(p => p.Equipos)
+                .HasForeignKey(d => d.UsuarioId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__equipos__usuario__6A30C649");
         });
 
         modelBuilder.Entity<Notification>(entity =>
         {
-            entity.HasKey(e => e.NotificationId).HasName("PK__notifica__E059842F3C9F58E9");
+            entity.HasKey(e => e.NotificationId).HasName("PK__notifica__E059842FAF406580");
 
             entity.ToTable("notifications");
 
@@ -92,18 +158,18 @@ public partial class ApdatadbContext : DbContext
 
             entity.HasOne(d => d.User).WithMany(p => p.Notifications)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__notificat__user___4316F928");
+                .HasConstraintName("FK_notifications_user_id");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__user__B9BE370F252B5F0B");
+            entity.HasKey(e => e.UserId).HasName("PK__user__B9BE370F4435B8CB");
 
             entity.ToTable("user");
 
-            entity.HasIndex(e => e.Email, "UQ__user__AB6E6164370A04BB").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ_user_email").IsUnique();
 
-            entity.HasIndex(e => e.Username, "UQ__user__F3DBC572BFEF5BB5").IsUnique();
+            entity.HasIndex(e => e.Username, "UQ_user_username").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("user_id");
             entity.Property(e => e.CreatedAt)

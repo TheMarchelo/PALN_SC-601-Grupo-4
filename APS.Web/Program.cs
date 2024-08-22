@@ -72,7 +72,10 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.AccessDeniedPath = "/AccessDenied";
 });
 
-// Add services to the container.
+// Agrega Razor Pages
+builder.Services.AddRazorPages();  // <-- Esto es clave para Razor Pages
+
+// Agrega controladores con vistas
 builder.Services.AddControllersWithViews();
 
 //tarea 4.5 - Añadir Distributed Memory Cache para las sesiones
@@ -111,9 +114,11 @@ app.UseRouting();
 //tarea 4.5 - Usar sesiones en la aplicación
 app.UseSession();
 
-
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Configurar enrutamiento de Razor Pages
+app.MapRazorPages();  // <-- Esto es clave para Razor Pages
 
 app.MapControllerRoute(
     name: "default",

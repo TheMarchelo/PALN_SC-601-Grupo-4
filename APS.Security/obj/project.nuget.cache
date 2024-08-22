@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vgbfqcov1ps=",
+  "dgSpecHash": "TAKEAP+pcs8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\XPC\\Desktop\\Tarea 4 y 5\\APS\\APS.Security\\APS.Security.csproj",
+  "projectFilePath": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Security\\APS.Security.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\XPC\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\XPC\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

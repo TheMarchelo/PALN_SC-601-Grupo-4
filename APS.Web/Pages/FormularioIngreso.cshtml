@@ -1,0 +1,112 @@
+﻿@page
+@model APS.Web.Pages.FormularioIngresoModel
+
+@{
+    ViewData["Title"] = "Ingreso de Equipo";
+    Layout = "_Layout";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Formulario de Ingreso de Equipo</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <form method="post">
+                @Html.AntiForgeryToken()
+
+                <!-- Resumen de Validación -->
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <!-- Marca -->
+                <div class="form-group">
+                    <label asp-for="Equipo.Marca" class="form-label"></label>
+                    <input asp-for="Equipo.Marca" class="form-control" placeholder="Ingrese la marca del equipo" />
+                    <span asp-validation-for="Equipo.Marca" class="text-danger"></span>
+                </div>
+
+                <!-- Modelo -->
+                <div class="form-group">
+                    <label asp-for="Equipo.Modelo" class="form-label"></label>
+                    <input asp-for="Equipo.Modelo" class="form-control" placeholder="Ingrese el modelo del equipo" />
+                    <span asp-validation-for="Equipo.Modelo" class="text-danger"></span>
+                </div>
+
+                <!-- Nombre del Cliente -->
+                <div class="form-group">
+                    <label asp-for="Equipo.NombreCliente" class="form-label"></label>
+                    <input asp-for="Equipo.NombreCliente" class="form-control" placeholder="Ingrese el nombre del cliente" />
+                    <span asp-validation-for="Equipo.NombreCliente" class="text-danger"></span>
+                </div>
+
+                <!-- Motivo de Ingreso -->
+                <div class="form-group">
+                    <label asp-for="Equipo.MotivoIngreso" class="form-label"></label>
+                    <textarea asp-for="Equipo.MotivoIngreso" class="form-control" placeholder="Describa el motivo del ingreso" rows="3"></textarea>
+                    <span asp-validation-for="Equipo.MotivoIngreso" class="text-danger"></span>
+                </div>
+
+                <!-- Garantía con Local -->
+                <div class="form-check mb-3">
+                    <input class="form-check-input" asp-for="Equipo.GarantiaConLocal" id="GarantiaConLocal" />
+                    <label class="form-check-label" for="GarantiaConLocal">@Html.DisplayNameFor(model => model.Equipo.GarantiaConLocal)</label>
+                </div>
+
+                <!-- Contraseña del Equipo -->
+                <div class="form-group">
+                    <label asp-for="Equipo.ContraseñaEquipo" class="form-label"></label>
+                    <input asp-for="Equipo.ContraseñaEquipo" class="form-control" placeholder="Ingrese la contraseña del equipo (si aplica)" />
+                    <span asp-validation-for="Equipo.ContraseñaEquipo" class="text-danger"></span>
+                </div>
+
+                <!-- Descripción -->
+                <div class="form-group">
+                    <label asp-for="Equipo.Descripcion" class="form-label"></label>
+                    <textarea asp-for="Equipo.Descripcion" class="form-control" placeholder="Describa el equipo y su estado" rows="3"></textarea>
+                    <span asp-validation-for="Equipo.Descripcion" class="text-danger"></span>
+                </div>
+
+                <!-- Usuario ID -->
+                <div class="form-group">
+                    <label asp-for="Equipo.UsuarioId" class="form-label"></label>
+                    <input asp-for="Equipo.UsuarioId" class="form-control" placeholder="Ingrese el ID del usuario" />
+                    <span asp-validation-for="Equipo.UsuarioId" class="text-danger"></span>
+                </div>
+
+                <!-- Fecha de Ingreso -->
+                <div class="form-group">
+                    <label asp-for="Equipo.FechaIngreso" class="form-label"></label>
+                    <input asp-for="Equipo.FechaIngreso" class="form-control" />
+                    <span asp-validation-for="Equipo.FechaIngreso" class="text-danger"></span>
+                </div>
+
+                <!-- Botón de Enviar -->
+                <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+
+                <environment names="Development">
+                    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+                    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+                </environment>
+                <environment names="Staging,Production">
+                    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"
+                            asp-fallback-src="~/lib/jquery-validation/dist/jquery.validate.min.js"
+                            asp-fallback-test="window.jQuery && window.jQuery.validator"
+                            crossorigin="anonymous"
+                            integrity="sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o+ok+t/SAKlL5mvXLr0OXNi1Hp">
+                    </script>
+                    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.9/jquery.validate.unobtrusive.min.js"
+                            asp-fallback-src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+                            asp-fallback-test="window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive"
+                            crossorigin="anonymous"
+                            integrity="sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds">
+                    </script>
+                </environment>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

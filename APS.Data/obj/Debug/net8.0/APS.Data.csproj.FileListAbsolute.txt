@@ -26,3 +26,18 @@ C:\Users\XPC\Desktop\Tarea 4 y 5\APS\APS.Data\obj\Debug\net8.0\refint\APS.Data.d
 C:\Users\XPC\Desktop\Tarea 4 y 5\APS\APS.Data\obj\Debug\net8.0\APS.Data.pdb
 C:\Users\XPC\Desktop\Tarea 4 y 5\APS\APS.Data\obj\Debug\net8.0\APS.Data.genruntimeconfig.cache
 C:\Users\XPC\Desktop\Tarea 4 y 5\APS\APS.Data\obj\Debug\net8.0\ref\APS.Data.dll
+D:\github\PALN_SC-601-Grupo-4\APS.Data\bin\Debug\net8.0\APS.Data.deps.json
+D:\github\PALN_SC-601-Grupo-4\APS.Data\bin\Debug\net8.0\APS.Data.runtimeconfig.json
+D:\github\PALN_SC-601-Grupo-4\APS.Data\bin\Debug\net8.0\APS.Data.dll
+D:\github\PALN_SC-601-Grupo-4\APS.Data\bin\Debug\net8.0\APS.Data.pdb
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\APS.Data.csproj.AssemblyReference.cache
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\APS.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\APS.Data.AssemblyInfoInputs.cache
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\APS.Data.AssemblyInfo.cs
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\APS.Data.csproj.CoreCompileInputs.cache
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\APS.Data.sourcelink.json
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\APS.Data.dll
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\refint\APS.Data.dll
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\APS.Data.pdb
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\APS.Data.genruntimeconfig.cache
+D:\github\PALN_SC-601-Grupo-4\APS.Data\obj\Debug\net8.0\ref\APS.Data.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\XPC\\Desktop\\Tarea 4 y 5\\APS\\APS.Data\\APS.Data.csproj": {}
+    "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\XPC\\Desktop\\Tarea 4 y 5\\APS\\APS.Data\\APS.Data.csproj": {
+    "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XPC\\Desktop\\Tarea 4 y 5\\APS\\APS.Data\\APS.Data.csproj",
+        "projectUniqueName": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj",
         "projectName": "APS.Data",
-        "projectPath": "C:\\Users\\XPC\\Desktop\\Tarea 4 y 5\\APS\\APS.Data\\APS.Data.csproj",
+        "projectPath": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj",
         "packagesPath": "C:\\Users\\XPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XPC\\Desktop\\Tarea 4 y 5\\APS\\APS.Data\\obj\\",
+        "outputPath": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\XPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

@@ -11,5 +11,5 @@ public partial class Authorization
 
     public string Pages { get; set; } = null!;
 
-    public virtual User IdNavigation { get; set; } = null!;
+    public virtual User User { get; set; } = null!;
 }
