@@ -1,161 +1,173 @@
-﻿CREATE DATABASE APDatadb;
+﻿/*
+--************************************
 
-USE [APDatadb]
+-- Usar la nueva base de datos
+USE [GestionEquiposDB];
 GO
-
-/****** Object:  Table [dbo].[account]    Script Date: 7/30/2024 8:44:07 AM ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[account](
-	[account_id] [int] IDENTITY(1,1) NOT NULL,
-	[user_id] [int] NULL,
-	[account_type] [varchar](50) NULL,
-	[balance] [decimal](10, 2) NULL,
-	[created_at] [datetime] NULL,
-PRIMARY KEY CLUSTERED 
-(
-	[account_id] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[authorizations]    Script Date: 7/30/2024 8:44:07 AM ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[authorizations](
-	[id] [int] IDENTITY(1,1) NOT NULL,
-	[userId] [int] NOT NULL,
-	[pages] [nvarchar](max) NOT NULL,
- CONSTRAINT [PK_authorizations] PRIMARY KEY CLUSTERED 
-(
-	[id] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[notifications]    Script Date: 7/30/2024 8:44:07 AM ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[notifications](
-	[notification_id] [int] IDENTITY(1,1) NOT NULL,
-	[user_id] [int] NULL,
-	[message] [text] NULL,
-	[is_read] [bit] NULL,
-	[created_at] [datetime] NULL,
-PRIMARY KEY CLUSTERED 
-(
-	[notification_id] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[user]    Script Date: 7/30/2024 8:44:07 AM ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[user](
-	[user_id] [int] IDENTITY(1,1) NOT NULL,
-	[username] [varchar](50) NOT NULL,
-	[password] [varchar](255) NOT NULL,
-	[email] [varchar](100) NOT NULL,
-	[created_at] [datetime] NULL,
-	[description] [nchar](10) NULL,
-	[isAuthorized] [bit] NULL,
- CONSTRAINT [PK__user__B9BE370F252B5F0B] PRIMARY KEY CLUSTERED 
-(
-	[user_id] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-SET IDENTITY_INSERT [dbo].[account] ON 
-GO
-INSERT [dbo].[account] ([account_id], [user_id], [account_type], [balance], [created_at]) VALUES (1, 1, N'admin', CAST(0.00 AS Decimal(10, 2)), CAST(N'2024-06-19T20:17:06.267' AS DateTime))
-GO
-SET IDENTITY_INSERT [dbo].[account] OFF
-GO
-SET IDENTITY_INSERT [dbo].[authorizations] ON 
-GO
-INSERT [dbo].[authorizations] ([id], [userId], [pages]) VALUES (1, 1, N'home;users')
-GO
-SET IDENTITY_INSERT [dbo].[authorizations] OFF
-GO
-SET IDENTITY_INSERT [dbo].[notifications] ON 
-GO
-INSERT [dbo].[notifications] ([notification_id], [user_id], [message], [is_read], [created_at]) VALUES (1, 1, N'Hello this is a new message', 0, CAST(N'2024-06-19T20:45:44.327' AS DateTime))
-GO
-INSERT [dbo].[notifications] ([notification_id], [user_id], [message], [is_read], [created_at]) VALUES (2, 1, N'wertty', 0, CAST(N'2024-06-19T20:47:31.857' AS DateTime))
-GO
-INSERT [dbo].[notifications] ([notification_id], [user_id], [message], [is_read], [created_at]) VALUES (3, 1, N'notification 2', 0, CAST(N'2024-06-19T20:47:38.190' AS DateTime))
-GO
-INSERT [dbo].[notifications] ([notification_id], [user_id], [message], [is_read], [created_at]) VALUES (4, 1, N'notification 3', 0, CAST(N'2024-06-19T20:47:42.060' AS DateTime))
-GO
-INSERT [dbo].[notifications] ([notification_id], [user_id], [message], [is_read], [created_at]) VALUES (5, 1, N'notification 4', 0, CAST(N'2024-06-19T20:47:45.760' AS DateTime))
-GO
-INSERT [dbo].[notifications] ([notification_id], [user_id], [message], [is_read], [created_at]) VALUES (6, 1, N'notification 5', 0, CAST(N'2024-06-19T20:47:50.900' AS DateTime))
-GO
-SET IDENTITY_INSERT [dbo].[notifications] OFF
-GO
-SET IDENTITY_INSERT [dbo].[user] ON 
-GO
-INSERT [dbo].[user] ([user_id], [username], [password], [email], [created_at], [description], [isAuthorized]) VALUES (1, N'amiranda', N'Alajuela', N'amiranda@gmail.com', CAST(N'2024-06-10T23:42:12.260' AS DateTime), NULL, NULL)
-GO
-INSERT [dbo].[user] ([user_id], [username], [password], [email], [created_at], [description], [isAuthorized]) VALUES (3, N'sebastian', N'sebas', N'sebas@gmail.copm', CAST(N'2024-06-17T20:58:29.710' AS DateTime), NULL, NULL)
-GO
-INSERT [dbo].[user] ([user_id], [username], [password], [email], [created_at], [description], [isAuthorized]) VALUES (4, N'mariajose', N'mariajose', N'mariajose@gmail.com', CAST(N'2024-06-17T20:58:53.323' AS DateTime), NULL, NULL)
-GO
-SET IDENTITY_INSERT [dbo].[user] OFF
-GO
-SET ANSI_PADDING ON
-GO
-/****** Object:  Index [UQ__user__AB6E6164370A04BB]    Script Date: 7/30/2024 8:44:07 AM ******/
-ALTER TABLE [dbo].[user] ADD  CONSTRAINT [UQ__user__AB6E6164370A04BB] UNIQUE NONCLUSTERED 
-(
-	[email] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-GO
-SET ANSI_PADDING ON
-GO
-/****** Object:  Index [UQ__user__F3DBC572BFEF5BB5]    Script Date: 7/30/2024 8:44:07 AM ******/
-ALTER TABLE [dbo].[user] ADD  CONSTRAINT [UQ__user__F3DBC572BFEF5BB5] UNIQUE NONCLUSTERED 
-(
-	[username] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-GO
-ALTER TABLE [dbo].[account] ADD  DEFAULT ((0.00)) FOR [balance]
-GO
-ALTER TABLE [dbo].[account] ADD  DEFAULT (getdate()) FOR [created_at]
-GO
-ALTER TABLE [dbo].[notifications] ADD  DEFAULT ((0)) FOR [is_read]
-GO
-ALTER TABLE [dbo].[notifications] ADD  DEFAULT (getdate()) FOR [created_at]
-GO
-ALTER TABLE [dbo].[user] ADD  CONSTRAINT [DF__user__created_at__398D8EEE]  DEFAULT (getdate()) FOR [created_at]
-GO
-ALTER TABLE [dbo].[account]  WITH CHECK ADD  CONSTRAINT [FK__account__user_id__3E52440B] FOREIGN KEY([user_id])
-REFERENCES [dbo].[user] ([user_id])
-GO
-ALTER TABLE [dbo].[account] CHECK CONSTRAINT [FK__account__user_id__3E52440B]
-GO
-ALTER TABLE [dbo].[authorizations]  WITH CHECK ADD  CONSTRAINT [FK_Users_Authorizations] FOREIGN KEY([id])
-REFERENCES [dbo].[user] ([user_id])
-GO
-ALTER TABLE [dbo].[authorizations] CHECK CONSTRAINT [FK_Users_Authorizations]
-GO
-ALTER TABLE [dbo].[notifications]  WITH CHECK ADD  CONSTRAINT [FK__notificat__user___4316F928] FOREIGN KEY([user_id])
-REFERENCES [dbo].[user] ([user_id])
-GO
-ALTER TABLE [dbo].[notifications] CHECK CONSTRAINT [FK__notificat__user___4316F928]
-GO
+*/
 
 USE APDatadb;
 GO
 
-SELECT * FROM dbo.[user];
-SELECT * FROM dbo.[account];
-SELECT * FROM dbo.[authorizations];
-SELECT * FROM dbo.[notifications];
+DECLARE @sql NVARCHAR(MAX) = N'';
 
+-- Generar DROP para cada tabla
+SELECT @sql += 'DROP TABLE [' + SCHEMA_NAME(schema_id) + '].[' + name + ']; '
+FROM sys.tables;
+
+-- Ejecutar los DROP TABLE
+EXEC sp_executesql @sql;
+
+
+
+-- Crear la tabla "account"
+CREATE TABLE [dbo].[account](
+    [account_id] INT IDENTITY(1,1) NOT NULL,
+    [user_id] INT NULL,
+    [account_type] VARCHAR(50) NULL,
+    [balance] DECIMAL(10, 2) NULL DEFAULT ((0.00)),
+    [created_at] DATETIME NULL DEFAULT (GETDATE()),
+    PRIMARY KEY CLUSTERED ([account_id] ASC)
+) ON [PRIMARY];
+GO
+
+-- Crear la tabla "authorizations"
+CREATE TABLE [dbo].[authorizations](
+    [id] INT IDENTITY(1,1) NOT NULL,
+    [userId] INT NOT NULL,
+    [pages] NVARCHAR(MAX) NOT NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY];
+GO
+
+-- Crear la tabla "notifications"
+CREATE TABLE [dbo].[notifications](
+    [notification_id] INT IDENTITY(1,1) NOT NULL,
+    [user_id] INT NULL,
+    [message] TEXT NULL,
+    [is_read] BIT NULL DEFAULT ((0)),
+    [created_at] DATETIME NULL DEFAULT (GETDATE()),
+    PRIMARY KEY CLUSTERED ([notification_id] ASC)
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY];
+GO
+
+-- Crear la tabla "user"
+CREATE TABLE [dbo].[user](
+    [user_id] INT IDENTITY(1,1) NOT NULL,
+    [username] VARCHAR(50) NOT NULL,
+    [password] VARCHAR(255) NOT NULL,
+    [email] VARCHAR(100) NOT NULL,
+    [created_at] DATETIME NULL DEFAULT (GETDATE()),
+    [description] NCHAR(10) NULL,
+    [isAuthorized] BIT NULL,
+    PRIMARY KEY CLUSTERED ([user_id] ASC)
+) ON [PRIMARY];
+GO
+
+SELECT * FROM [dbo].[user];
+GO
+
+-- Crear la tabla "equipos" sin el campo "estado"
+CREATE TABLE [dbo].[equipos](
+    [equipo_id] INT IDENTITY(1,1) NOT NULL,
+    [marca] VARCHAR(100) NOT NULL,
+    [modelo] VARCHAR(100) NOT NULL,
+    [nombre_cliente] VARCHAR(150) NOT NULL,
+    [motivo_ingreso] TEXT NOT NULL,
+    [garantia_con_local] BIT NOT NULL,
+    [contraseña_equipo] VARCHAR(100) NULL,
+    [descripcion] TEXT NULL,
+    [fecha_ingreso] DATETIME NOT NULL DEFAULT GETDATE(),
+    [usuario_id] INT NOT NULL,
+    PRIMARY KEY CLUSTERED ([equipo_id] ASC),
+    FOREIGN KEY ([usuario_id]) REFERENCES [dbo].[user]([user_id])
+) ON [PRIMARY];
+GO
+
+SELECT * FROM [dbo].[equipos];
+GO
+
+-- Crear la tabla "aprobaciones"
+CREATE TABLE [dbo].[aprobaciones](
+    [aprobacion_id] INT IDENTITY(1,1) NOT NULL,
+    [equipo_id] INT NOT NULL,
+    [criterio] VARCHAR(255) NOT NULL,
+    [cumple] BIT NOT NULL,
+    PRIMARY KEY CLUSTERED ([aprobacion_id] ASC),
+    FOREIGN KEY ([equipo_id]) REFERENCES [dbo].[equipos]([equipo_id])
+) ON [PRIMARY];
+GO
+
+-- Configurar claves foráneas
+ALTER TABLE [dbo].[account] ADD CONSTRAINT [FK_account_user_id] FOREIGN KEY([user_id])
+REFERENCES [dbo].[user] ([user_id]);
+GO
+
+ALTER TABLE [dbo].[authorizations] ADD CONSTRAINT [FK_authorizations_userId] FOREIGN KEY([userId])
+REFERENCES [dbo].[user] ([user_id]);
+GO
+
+ALTER TABLE [dbo].[notifications] ADD CONSTRAINT [FK_notifications_user_id] FOREIGN KEY([user_id])
+REFERENCES [dbo].[user] ([user_id]);
+GO
+
+-- Agregar índices únicos a la tabla "user"
+ALTER TABLE [dbo].[user] ADD CONSTRAINT [UQ_user_email] UNIQUE NONCLUSTERED ([email] ASC);
+GO
+
+ALTER TABLE [dbo].[user] ADD CONSTRAINT [UQ_user_username] UNIQUE NONCLUSTERED ([username] ASC);
+GO
+
+-- Insertar datos de ejemplo en la tabla "user"
+SET IDENTITY_INSERT [dbo].[user] ON;
+INSERT INTO [dbo].[user] ([user_id], [username], [password], [email], [created_at], [description], [isAuthorized]) VALUES 
+(1, N'marcelo', N'123', N'marcelo@gmail.com', GETDATE(), NULL, NULL),
+(2, N'joshua', N'123', N'joshua@gmail.com', GETDATE(), NULL, NULL),
+(3, N'noe', N'123', N'noe@gmail.com', GETDATE(), NULL, NULL),
+(4, N'denis', N'123', N'denis@gmail.com', GETDATE(), NULL, NULL);
+SET IDENTITY_INSERT [dbo].[user] OFF;
+GO
+
+-- Insertar datos de ejemplo en la tabla "account"
+SET IDENTITY_INSERT [dbo].[account] ON;
+INSERT INTO [dbo].[account] ([account_id], [user_id], [account_type], [balance], [created_at]) VALUES (1, 1, N'admin', CAST(0.00 AS Decimal(10, 2)), GETDATE());
+SET IDENTITY_INSERT [dbo].[account] OFF;
+GO
+
+-- Insertar datos de ejemplo en la tabla "authorizations"
+SET IDENTITY_INSERT [dbo].[authorizations] ON;
+INSERT INTO [dbo].[authorizations] ([id], [userId], [pages]) VALUES (1, 1, N'home;users');
+SET IDENTITY_INSERT [dbo].[authorizations] OFF;
+GO
+
+-- Insertar datos de ejemplo en la tabla "notifications"
+SET IDENTITY_INSERT [dbo].[notifications] ON;
+INSERT INTO [dbo].[notifications] ([notification_id], [user_id], [message], [is_read], [created_at]) VALUES 
+(1, 1, N'Hello this is a new message', 0, GETDATE()),
+(2, 1, N'wertty', 0, GETDATE()),
+(3, 1, N'notification 2', 0, GETDATE()),
+(4, 1, N'notification 3', 0, GETDATE()),
+(5, 1, N'notification 4', 0, GETDATE()),
+(6, 1, N'notification 5', 0, GETDATE());
+SET IDENTITY_INSERT [dbo].[notifications] OFF;
+GO
+
+-- Insertar datos de ejemplo en la tabla "equipos" con los campos adicionales y sin "estado"
+INSERT INTO [dbo].[equipos] ([marca], [modelo], [nombre_cliente], [motivo_ingreso], [garantia_con_local], [contraseña_equipo], [descripcion], [fecha_ingreso], [usuario_id]) VALUES 
+('HP', 'notebook Pavilion Gaming', 'Sebastian', 'Pantalla no enciende', 1, '123','Laptop de uso gamer', GETDATE(), 1),
+('Dell', 'Inspiron 3520', 'Mariana', 'Teclado no funciona', 1, '123','Laptop para entretenimiento', GETDATE(), 1);
+GO
+
+-- Insertar criterios de aprobación para el equipo de ejemplo en la tabla "aprobaciones"
+INSERT INTO [dbo].[aprobaciones] ([equipo_id], [criterio], [cumple]) VALUES 
+(1, 'El equipo no presenta daños visibles graves.', 1),
+(1, 'La marca del equipo está en la lista de marcas aprobadas.', 1),
+(1, 'El equipo no presenta rastros de humedad o exposición a calor excesivo.', 1),
+(1, 'El procesador es de una generación compatible (10ª generación de Intel o posterior).', 1),
+(1, 'El equipo no ha sido declarado obsoleto por el fabricante.', 1),
+(2, 'El equipo no presenta daños visibles graves.', 1),
+(2, 'La marca del equipo está en la lista de marcas aprobadas.', 1),
+(2, 'El equipo no presenta rastros de humedad o exposición a calor excesivo.', 0),
+(2, 'El procesador es de una generación compatible (10ª generación de Intel o posterior).', 1),
+(2, 'El equipo no ha sido declarado obsoleto por el fabricante.', 1);
+GO
