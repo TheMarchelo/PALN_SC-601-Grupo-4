@@ -20,25 +20,47 @@ namespace APS.Web.Pages
 
         public IActionResult OnGet()
         {
-        ViewData["UsuarioId"] = new SelectList(_context.Users, "UserId", "Email");
+            ViewData["UsuarioId"] = new SelectList(_context.Users, "UserId", "Email");
             return Page();
         }
 
         [BindProperty]
         public Equipo Equipo { get; set; } = default!;
 
-        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+        // Método para manejar la solicitud POST cuando se envía el formulario.
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
             {
-                return Page();
+                // Imprimir los errores de validación en el Debug.
+                foreach (var modelState in ViewData.ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        System.Diagnostics.Debug.WriteLine("Validation error: " + error.ErrorMessage);
+                    }
+                }
+                // Responder con JSON en caso de errores de validación
+                return new JsonResult(new { success = false, message = "Datos de formulario no válidos." });
             }
 
-            _context.Equipos.Add(Equipo);
-            await _context.SaveChangesAsync();
+            try
+            {
+                // Intenta insertar el equipo en la base de datos
+                _context.Equipos.Add(Equipo);
+                await _context.SaveChangesAsync();
+                System.Diagnostics.Debug.WriteLine("Equipo insertado exitosamente en la base de datos.");
 
-            return RedirectToPage("./Index");
+                // Responder con JSON en caso de éxito
+                return new JsonResult(new { success = true, message = "¡Equipo insertado exitosamente!" });
+            }
+            catch (Exception ex)
+            {
+                // Captura cualquier excepción y maneja el error
+                System.Diagnostics.Debug.WriteLine("Error al insertar en la base de datos: " + ex.Message);
+                // Responder con JSON en caso de error
+                return new JsonResult(new { success = false, message = "Ocurrió un error al insertar el equipo. Por favor, inténtelo de nuevo." });
+            }
         }
     }
 }

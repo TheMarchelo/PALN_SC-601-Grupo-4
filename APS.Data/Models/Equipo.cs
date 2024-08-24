@@ -7,21 +7,21 @@ public partial class Equipo
 {
     public int EquipoId { get; set; }
 
-    public string Marca { get; set; } = null!;
+    public string? Marca { get; set; }  // Ahora permite NULL
 
-    public string Modelo { get; set; } = null!;
+    public string? Modelo { get; set; }  // Ahora permite NULL
 
-    public string NombreCliente { get; set; } = null!;
+    public string? NombreCliente { get; set; }  // Ahora permite NULL
 
-    public string MotivoIngreso { get; set; } = null!;
+    public string? MotivoIngreso { get; set; }  // Ahora permite NULL
 
-    public bool GarantiaConLocal { get; set; }
+    public bool? GarantiaConLocal { get; set; }  // Ahora permite NULL
 
-    public string ContraseñaEquipo { get; set; }
+    public string? ContraseñaEquipo { get; set; }  // Sigue permitiendo NULL
 
-    public string Descripcion { get; set; }
+    public string? Descripcion { get; set; }  // Sigue permitiendo NULL
 
-    public DateTime FechaIngreso { get; set; }
+    public DateTime? FechaIngreso { get; set; }  // Ahora permite NULL
 
     public int UsuarioId { get; set; }
 
