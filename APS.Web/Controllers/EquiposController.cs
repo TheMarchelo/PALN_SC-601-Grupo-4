@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using APS.Data.Models;
 using APS.Data;
+using System;
 
 namespace APS.Web.Controllers
 {
@@ -36,7 +37,9 @@ namespace APS.Web.Controllers
                 {
                     _context.Equipos.Add(equipo);
                     _context.SaveChanges(); // Guarda en la base de datos
-                    return RedirectToAction("Index", "Home");
+
+                    // Redirige a la misma página con un parámetro para mostrar el modal de éxito
+                    return RedirectToAction("Create", new { saved = true });
                 }
                 catch (Exception ex)
                 {
@@ -48,7 +51,6 @@ namespace APS.Web.Controllers
             // Si el modelo no es válido, vuelve a mostrar el formulario con los datos ingresados
             return View(equipo);
         }
-
 
         // Otros métodos del controlador...
     }

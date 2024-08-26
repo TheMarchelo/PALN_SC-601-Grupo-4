@@ -32,7 +32,6 @@
         <label asp-for="GarantiaConLocal" class="form-check-label"></label>
         <span asp-validation-for="GarantiaConLocal" class="text-danger"></span>
     </div>
-
     <div class="form-group">
         <label asp-for="ContraseñaEquipo" class="control-label"></label>
         <input asp-for="ContraseñaEquipo" class="form-control" />
@@ -53,6 +52,42 @@
     </div>
 </form>
 
+<!-- Modal de Confirmación -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Éxito</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Equipo guardado exitosamente.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div>
     <a asp-action="Index">Volver a la lista</a>
 </div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('saved')) {
+                $('#successModal').modal('show');
+
+                // Temporizador para redirigir al usuario al Home después de 3 segundos
+                setTimeout(function () {
+                    window.location.href = '@Url.Action("Index", "Home")';
+                }, 3000); // 3000 milisegundos = 3 segundos
+            }
+        });
+    </script>
+}
