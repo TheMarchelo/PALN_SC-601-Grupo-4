@@ -49,7 +49,6 @@ namespace APS.Web.Controllers
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Error al guardar en la base de datos: {ex.Message}");
-                    // Puedes mostrar un mensaje de error al usuario o registrar el error
                 }
             }
 
@@ -109,6 +108,5 @@ namespace APS.Web.Controllers
                 PageMargins = new Rotativa.AspNetCore.Options.Margins(10, 10, 10, 10)
             };
         }
-        // Otros métodos del controlador...
     }
 }

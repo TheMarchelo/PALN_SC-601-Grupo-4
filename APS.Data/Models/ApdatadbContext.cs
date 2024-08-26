@@ -27,6 +27,8 @@ public partial class ApdatadbContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<HistorialEquipo> HistorialEquipos { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=Desktop\\SQLEXPRESS;Database=APDatadb;Trusted_Connection=True;TrustServerCertificate=True;");
@@ -130,6 +132,13 @@ public partial class ApdatadbContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("nombre_cliente");
             entity.Property(e => e.UsuarioId).HasColumnName("usuario_id");
+
+            entity.HasKey(e => e.EquipoId);
+
+            entity.HasMany(e => e.HistorialEquipos)
+                  .WithOne(h => h.Equipo)
+                  .HasForeignKey(h => h.EquipoId)
+                  .OnDelete(DeleteBehavior.ClientSetNull);
         });
 
         modelBuilder.Entity<Notification>(entity =>
@@ -188,6 +197,23 @@ public partial class ApdatadbContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("username");
+        });
+
+        modelBuilder.Entity<HistorialEquipo>(entity =>
+        {
+            entity.HasKey(e => e.HistorialId);
+
+            entity.Property(e => e.DescripcionCambio)
+                  .IsRequired()
+                  .HasMaxLength(int.MaxValue);
+
+            entity.Property(e => e.FechaCambio)
+                  .HasDefaultValueSql("GETDATE()");
+
+            entity.HasOne(d => d.Equipo)
+                  .WithMany(p => p.HistorialEquipos)
+                  .HasForeignKey(d => d.EquipoId)
+                  .OnDelete(DeleteBehavior.ClientSetNull);
         });
 
         OnModelCreatingPartial(modelBuilder);
