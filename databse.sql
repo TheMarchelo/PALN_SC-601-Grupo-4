@@ -5,6 +5,8 @@
 USE [GestionEquiposDB];
 GO
 */
+CREATE DATABASE APDatadb;
+GO
 
 USE APDatadb;
 GO
@@ -67,20 +69,22 @@ GO
 SELECT * FROM [dbo].[user];
 GO
 
+
+DROP TABLE equipos;
+GO
+
 -- Crear la tabla "equipos" sin el campo "estado"
-CREATE TABLE [dbo].[equipos](
+CREATE TABLE [dbo].[equipos] (
     [equipo_id] INT IDENTITY(1,1) NOT NULL,
-    [marca] VARCHAR(100) NOT NULL,
-    [modelo] VARCHAR(100) NOT NULL,
-    [nombre_cliente] VARCHAR(150) NOT NULL,
-    [motivo_ingreso] TEXT NOT NULL,
-    [garantia_con_local] BIT NOT NULL,
+    [marca] VARCHAR(100) NULL,
+    [modelo] VARCHAR(100) NULL,
+    [nombre_cliente] VARCHAR(150) NULL,
+    [motivo_ingreso] TEXT NULL,
+    [garantia_con_local] BIT NULL,
     [contraseña_equipo] VARCHAR(100) NULL,
     [descripcion] TEXT NULL,
-    [fecha_ingreso] DATETIME NOT NULL DEFAULT GETDATE(),
-    [usuario_id] INT NOT NULL,
-    PRIMARY KEY CLUSTERED ([equipo_id] ASC),
-    FOREIGN KEY ([usuario_id]) REFERENCES [dbo].[user]([user_id])
+    [fecha_ingreso] DATETIME NULL DEFAULT GETDATE(),
+    [usuario_id] INT NULL
 ) ON [PRIMARY];
 GO
 

@@ -130,11 +130,6 @@ public partial class ApdatadbContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("nombre_cliente");
             entity.Property(e => e.UsuarioId).HasColumnName("usuario_id");
-
-            entity.HasOne(d => d.Usuario).WithMany(p => p.Equipos)
-                .HasForeignKey(d => d.UsuarioId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__equipos__usuario__6A30C649");
         });
 
         modelBuilder.Entity<Notification>(entity =>

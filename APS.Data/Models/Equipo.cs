@@ -1,31 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace APS.Data.Models;
-
-public partial class Equipo
+namespace APS.Data.Models
 {
-    public int EquipoId { get; set; }
+    public partial class Equipo
+    {
+        public int EquipoId { get; set; }
 
-    public string? Marca { get; set; }  // Ahora permite NULL
+        public string? Marca { get; set; }  // Puede ser NULL
 
-    public string? Modelo { get; set; }  // Ahora permite NULL
+        public string? Modelo { get; set; }  // Puede ser NULL
 
-    public string? NombreCliente { get; set; }  // Ahora permite NULL
+        public string? NombreCliente { get; set; }  // Puede ser NULL
 
-    public string? MotivoIngreso { get; set; }  // Ahora permite NULL
+        public string? MotivoIngreso { get; set; }  // Puede ser NULL
 
-    public bool? GarantiaConLocal { get; set; }  // Ahora permite NULL
+        public bool GarantiaConLocal { get; set; }  // Nota: Este campo sigue siendo NOT NULL en la base de datos
 
-    public string? ContraseñaEquipo { get; set; }  // Sigue permitiendo NULL
+        public string? ContraseñaEquipo { get; set; }  // Puede ser NULL
 
-    public string? Descripcion { get; set; }  // Sigue permitiendo NULL
+        public string? Descripcion { get; set; }  // Puede ser NULL
 
-    public DateTime? FechaIngreso { get; set; }  // Ahora permite NULL
+        public DateTime? FechaIngreso { get; set; }  // Puede ser NULL
 
-    public int UsuarioId { get; set; }
+        public int? UsuarioId { get; set; }  // Puede ser NULL, ya está alineado con la base de datos
 
-    public virtual ICollection<Aprobacione> Aprobaciones { get; set; } = new List<Aprobacione>();
+        public virtual ICollection<Aprobacione> Aprobaciones { get; set; } = new List<Aprobacione>();
 
-    public virtual User Usuario { get; set; } = null!;
+        // Relación opcional con la entidad User
+        public virtual User? Usuario { get; set; }  // Relación opcional
+    }
 }

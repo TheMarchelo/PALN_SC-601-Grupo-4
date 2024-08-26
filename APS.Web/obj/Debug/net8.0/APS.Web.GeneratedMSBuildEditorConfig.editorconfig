@@ -26,16 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\github\PALN_SC-601-Grupo-4\APS.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Pages/FormularioIngreso.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpb0luZ3Jlc28uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Pages/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Accounts/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Equipos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Home/Index.cshtml]
