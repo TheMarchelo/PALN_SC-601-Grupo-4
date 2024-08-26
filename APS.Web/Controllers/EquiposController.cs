@@ -24,27 +24,28 @@ namespace APS.Web.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Equipo equipo)
         {
-            var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
-            foreach (var error in errors)
-            {
-                Console.WriteLine(error); // O registra los errores
-            }
-
-            // Punto de interrupción aquí para ver el estado de ModelState y los datos de 'equipo'
             if (ModelState.IsValid)
             {
-                // Solo asignar UsuarioId si no está definido y es necesario
+                // Asignar un valor de UsuarioId si no está asignado
                 if (!equipo.UsuarioId.HasValue)
                 {
-                    equipo.UsuarioId = 1; // O asignar según tu lógica
+                    equipo.UsuarioId = 1; // Valor predeterminado o según lógica de negocio
                 }
 
-                _context.Equipos.Add(equipo);
-                _context.SaveChanges();
-                return RedirectToAction("Index", "Home");
+                try
+                {
+                    _context.Equipos.Add(equipo);
+                    _context.SaveChanges(); // Guarda en la base de datos
+                    return RedirectToAction("Index", "Home");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error al guardar en la base de datos: {ex.Message}");
+                    // Puedes mostrar un mensaje de error al usuario o registrar el error
+                }
             }
 
-
+            // Si el modelo no es válido, vuelve a mostrar el formulario con los datos ingresados
             return View(equipo);
         }
 

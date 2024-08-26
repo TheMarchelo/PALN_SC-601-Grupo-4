@@ -5,6 +5,14 @@
 USE [GestionEquiposDB];
 GO
 */
+
+USE master;
+GO
+ALTER DATABASE APDatadb SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+GO
+DROP DATABASE APDatadb;
+GO
+
 CREATE DATABASE APDatadb;
 GO
 
@@ -70,23 +78,22 @@ SELECT * FROM [dbo].[user];
 GO
 
 
-DROP TABLE equipos;
-GO
+DROP TABLE IF EXISTS [dbo].[equipos];
 
--- Crear la tabla "equipos" sin el campo "estado"
 CREATE TABLE [dbo].[equipos] (
     [equipo_id] INT IDENTITY(1,1) NOT NULL,
-    [marca] VARCHAR(100) NULL,
-    [modelo] VARCHAR(100) NULL,
-    [nombre_cliente] VARCHAR(150) NULL,
-    [motivo_ingreso] TEXT NULL,
-    [garantia_con_local] BIT NULL,
+    [marca] VARCHAR(100) NOT NULL,
+    [modelo] VARCHAR(100) NOT NULL,
+    [nombre_cliente] VARCHAR(150) NOT NULL,
+    [motivo_ingreso] TEXT NOT NULL,
+    [garantia_con_local] BIT NOT NULL,
     [contraseña_equipo] VARCHAR(100) NULL,
     [descripcion] TEXT NULL,
-    [fecha_ingreso] DATETIME NULL DEFAULT GETDATE(),
+    [fecha_ingreso] DATETIME NOT NULL DEFAULT GETDATE(),
     [usuario_id] INT NULL
 ) ON [PRIMARY];
 GO
+
 
 SELECT * FROM [dbo].[equipos];
 GO
