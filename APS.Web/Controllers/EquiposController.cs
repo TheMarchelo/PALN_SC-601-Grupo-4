@@ -5,6 +5,7 @@ using APS.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Rotativa.AspNetCore;
 
 namespace APS.Web.Controllers
 {
@@ -92,7 +93,22 @@ namespace APS.Web.Controllers
         {
             return View();
         }
+     
+        
+        // Acción para generar el PDF del reporte de equipos
+    public IActionResult DescargarReportePdf()
+        {
+            var equipos = _context.Equipos.ToList();
 
+            // Utiliza la vista existente o crea una nueva específica para el PDF
+            return new ViewAsPdf("ReporteEquiposPdf", equipos)
+            {
+                FileName = "ReporteEquipos.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4,
+                PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
+                PageMargins = new Rotativa.AspNetCore.Options.Margins(10, 10, 10, 10)
+            };
+        }
         // Otros métodos del controlador...
     }
 }

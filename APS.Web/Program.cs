@@ -5,6 +5,7 @@ using APS.Web.Architecture;
 using APS.Web.Filters;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,10 +33,10 @@ builder.Services.AddRazorPages();  // <-- Esto es clave para Razor Pages
 // Agrega controladores con vistas
 builder.Services.AddControllersWithViews();
 
-//tarea 4.5 - Añadir Distributed Memory Cache para las sesiones
+// Añadir Distributed Memory Cache para las sesiones
 builder.Services.AddDistributedMemoryCache();
 
-//tarea 4.5 - Configurar y añadir el servicio de sesión
+// Configurar y añadir el servicio de sesión
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(1); // Tiempo de expiración de la sesión
@@ -43,7 +44,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-//tarea 4.5 - Registra ISecurityService y SecurityService en el contenedor de servicios
+// Registra ISecurityService y SecurityService en el contenedor de servicios
 builder.Services.AddScoped<ISecurityService, SecurityService>();
 
 LocalConfiguration.Register(builder.Services);
@@ -52,6 +53,9 @@ ServicesConfiguration.Register(builder.Services);
 
 // Construye la aplicación
 var app = builder.Build();
+
+// Configura Rotativa
+RotativaConfiguration.Setup(app.Environment.WebRootPath, "Rotativa");
 
 // Configura el pipeline de la aplicación
 if (!app.Environment.IsDevelopment())
@@ -65,7 +69,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-//tarea 4.5 - Usar sesiones en la aplicación
+// Usar sesiones en la aplicación
 app.UseSession();
 
 app.UseAuthentication();

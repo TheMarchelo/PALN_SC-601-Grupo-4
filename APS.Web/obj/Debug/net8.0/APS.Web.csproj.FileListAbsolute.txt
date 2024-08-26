@@ -849,6 +849,7 @@ C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\bin\Debug\net8.0\NuGet.P
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\bin\Debug\net8.0\NuGet.ProjectModel.dll
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\bin\Debug\net8.0\Rotativa.AspNetCore.dll
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -1024,6 +1025,7 @@ C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.AssemblyInfoInputs.cache
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.AssemblyInfo.cs
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.csproj.CoreCompileInputs.cache
+C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.RazorAssemblyInfo.cache
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.RazorAssemblyInfo.cs

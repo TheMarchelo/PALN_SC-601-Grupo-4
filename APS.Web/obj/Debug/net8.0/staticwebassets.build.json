@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zyfuUxmH4R6q8WhBCmd/az0+e50fM6+lKLWOD79DVgc=",
+  "Hash": "LPrUqY71lg8ms4oN83IkU4tFhCU2Pk5a98YP68gHnJk=",
   "Source": "APS.Web",
   "BasePath": "_content/APS.Web",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "APS.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\wwwroot\\",
+      "BasePath": "_content/APS.Web",
+      "RelativePath": "Rotativa/wkhtmltopdf.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
     }
   ]
 }
