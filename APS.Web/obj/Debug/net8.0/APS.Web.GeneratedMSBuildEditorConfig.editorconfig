@@ -30,6 +30,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Aprobaciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXByb2JhY2lvbmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Equipos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/_ErrorPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FcnJvclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -68,6 +80,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/VerEquipos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyRXF1aXBvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/VerEquipos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyRXF1aXBvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/VerEquipos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyRXF1aXBvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/_ViewImports.cshtml]

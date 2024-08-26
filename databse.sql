@@ -98,15 +98,18 @@ GO
 SELECT * FROM [dbo].[equipos];
 GO
 
+
+
+DROP TABLE IF EXISTS [dbo].[aprobaciones];
+
 -- Crear la tabla "aprobaciones"
 CREATE TABLE [dbo].[aprobaciones](
-    [aprobacion_id] INT IDENTITY(1,1) NOT NULL,
-    [equipo_id] INT NOT NULL,
     [criterio] VARCHAR(255) NOT NULL,
-    [cumple] BIT NOT NULL,
-    PRIMARY KEY CLUSTERED ([aprobacion_id] ASC),
-    FOREIGN KEY ([equipo_id]) REFERENCES [dbo].[equipos]([equipo_id])
+    [cumple] BIT NOT NULL
 ) ON [PRIMARY];
+GO
+
+SELECT * FROM [dbo].[aprobaciones];
 GO
 
 -- Configurar claves foráneas
@@ -170,15 +173,15 @@ INSERT INTO [dbo].[equipos] ([marca], [modelo], [nombre_cliente], [motivo_ingres
 GO
 
 -- Insertar criterios de aprobación para el equipo de ejemplo en la tabla "aprobaciones"
-INSERT INTO [dbo].[aprobaciones] ([equipo_id], [criterio], [cumple]) VALUES 
-(1, 'El equipo no presenta daños visibles graves.', 1),
-(1, 'La marca del equipo está en la lista de marcas aprobadas.', 1),
-(1, 'El equipo no presenta rastros de humedad o exposición a calor excesivo.', 1),
-(1, 'El procesador es de una generación compatible (10ª generación de Intel o posterior).', 1),
-(1, 'El equipo no ha sido declarado obsoleto por el fabricante.', 1),
-(2, 'El equipo no presenta daños visibles graves.', 1),
-(2, 'La marca del equipo está en la lista de marcas aprobadas.', 1),
-(2, 'El equipo no presenta rastros de humedad o exposición a calor excesivo.', 0),
-(2, 'El procesador es de una generación compatible (10ª generación de Intel o posterior).', 1),
-(2, 'El equipo no ha sido declarado obsoleto por el fabricante.', 1);
+INSERT INTO [dbo].[aprobaciones] ([criterio], [cumple]) VALUES 
+('El equipo no presenta daños visibles graves.', 0),
+('La marca del equipo está en la lista de marcas aprobadas.', 0),
+('El equipo no presenta rastros de humedad o exposición a calor excesivo.', 0),
+('El procesador es de una generación compatible (10ª generación de Intel o posterior).', 0),
+('El equipo no ha sido declarado obsoleto por el fabricante.', 0),
+('El equipo no presenta daños visibles graves.', 0),
+('La marca del equipo está en la lista de marcas aprobadas.', 0),
+('El equipo no presenta rastros de humedad o exposición a calor excesivo.', 0),
+('El procesador es de una generación compatible (10ª generación de Intel o posterior).', 0),
+('El equipo no ha sido declarado obsoleto por el fabricante.', 0);
 GO

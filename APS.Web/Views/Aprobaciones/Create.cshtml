@@ -1,0 +1,15 @@
+﻿@model APS.Web.Models.AprobacionViewModel
+
+<h2>Aprobaciones</h2>
+
+<form method="post" asp-controller="Aprobaciones" asp-action="GuardarAprobaciones">
+    @foreach (var criterio in Model.Criterios)
+    {
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" asp-for="@criterio.Cumple" />
+            <label class="form-check-label">@criterio.NombreCriterio</label>
+            <input type="hidden" asp-for="@criterio.NombreCriterio" value="@criterio.NombreCriterio" />
+        </div>
+    }
+    <button type="submit" class="btn btn-primary">Guardar Aprobaciones</button>
+</form>
