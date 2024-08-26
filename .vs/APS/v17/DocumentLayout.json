@@ -1,41 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\github\\PALN_SC-601-Grupo-4\\",
+  "WorkspaceRootPath": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\verequipos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\verequipos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\controllers\\verequiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\controllers\\verequiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\verequipos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\verequipos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\verequipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\verequipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.data\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|solutionrelative:aps.data\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\views\\equipos\\verificaraprobaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\equipos\\verificaraprobaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\views\\equipos\\equiporechazado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\equipos\\equiporechazado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\views\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\models\\aprobacionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\models\\aprobacionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\controllers\\verequiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\controllers\\verequiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.data\\models\\aprobacione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|solutionrelative:aps.data\\models\\aprobacione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D373D78A-6988-40AB-8D40-71B99A67FE57}|APS.Web\\APS.Web.csproj|solutionrelative:aps.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|d:\\github\\paln_sc-601-grupo-4\\aps.data\\models\\apdatadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|c:\\users\\noerr\\source\\repos\\paln_sc-601-grupo-4\\aps.data\\models\\apdatadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E858E848-C962-4C74-BCF2-706D965AFDD1}|APS.Data\\APS.Data.csproj|solutionrelative:aps.data\\models\\apdatadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,127 +66,200 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\VerEquipos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "APS.Web\\Views\\VerEquipos\\Delete.cshtml",
-              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\VerEquipos\\Delete.cshtml",
-              "RelativeToolTip": "APS.Web\\Views\\VerEquipos\\Delete.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAuwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-26T08:32:49.756Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\VerEquipos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "APS.Web\\Views\\VerEquipos\\Edit.cshtml",
-              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\VerEquipos\\Edit.cshtml",
-              "RelativeToolTip": "APS.Web\\Views\\VerEquipos\\Edit.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAuwDgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-26T08:32:24.321Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\VerEquipos\\Index.cshtml",
-              "RelativeDocumentMoniker": "APS.Web\\Views\\VerEquipos\\Index.cshtml",
-              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\VerEquipos\\Index.cshtml",
-              "RelativeToolTip": "APS.Web\\Views\\VerEquipos\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAuwCwAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-26T08:27:54.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VerEquiposController.cs",
-              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Controllers\\VerEquiposController.cs",
-              "RelativeDocumentMoniker": "APS.Web\\Controllers\\VerEquiposController.cs",
-              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Controllers\\VerEquiposController.cs",
-              "RelativeToolTip": "APS.Web\\Controllers\\VerEquiposController.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAA6wEgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:22:42.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Equipo.cs",
-              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\Equipo.cs",
-              "RelativeDocumentMoniker": "APS.Data\\Models\\Equipo.cs",
-              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\Equipo.cs",
-              "RelativeToolTip": "APS.Data\\Models\\Equipo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:24:09.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApdatadbContext.cs",
-              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\ApdatadbContext.cs",
-              "RelativeDocumentMoniker": "APS.Data\\Models\\ApdatadbContext.cs",
-              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\ApdatadbContext.cs",
-              "RelativeToolTip": "APS.Data\\Models\\ApdatadbContext.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAmwMUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T23:51:54.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "APS.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "APS.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAkwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-25T22:43:40.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Program.cs",
-              "RelativeDocumentMoniker": "APS.Web\\Program.cs",
-              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\Program.cs",
-              "RelativeToolTip": "APS.Web\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAqwFEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T22:42:05.708Z",
+              "WhenOpened": "2024-08-26T19:45:58.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AprobacionesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Models\\AprobacionesViewModel.cs",
+              "RelativeDocumentMoniker": "APS.Web\\Models\\AprobacionesViewModel.cs",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Models\\AprobacionesViewModel.cs",
+              "RelativeToolTip": "APS.Web\\Models\\AprobacionesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:39:16.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Equipos\\Create.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Equipos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Equipos\\Create.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Equipos\\Create.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:32:21.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EquipoRechazado.cshtml",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Equipos\\EquipoRechazado.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Equipos\\EquipoRechazado.cshtml",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Equipos\\EquipoRechazado.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Equipos\\EquipoRechazado.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:32:33.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:29:52.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Users\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:35:24.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VerEquiposController.cs",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Controllers\\VerEquiposController.cs",
+              "RelativeDocumentMoniker": "APS.Web\\Controllers\\VerEquiposController.cs",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Controllers\\VerEquiposController.cs",
+              "RelativeToolTip": "APS.Web\\Controllers\\VerEquiposController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:44:07.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Aprobacione.cs",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\Aprobacione.cs",
+              "RelativeDocumentMoniker": "APS.Data\\Models\\Aprobacione.cs",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\Aprobacione.cs",
+              "RelativeToolTip": "APS.Data\\Models\\Aprobacione.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:42:58.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerificarAprobaciones.cshtml",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Equipos\\VerificarAprobaciones.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\Equipos\\VerificarAprobaciones.cshtml",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\Equipos\\VerificarAprobaciones.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\Equipos\\VerificarAprobaciones.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:32:36.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:35:20.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "APS.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "APS.Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:35:19.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EquiposController.cs",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Controllers\\EquiposController.cs",
+              "RelativeDocumentMoniker": "APS.Web\\Controllers\\EquiposController.cs",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\Controllers\\EquiposController.cs",
+              "RelativeToolTip": "APS.Web\\Controllers\\EquiposController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:28:23.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\appsettings.json",
               "RelativeDocumentMoniker": "APS.Web\\appsettings.json",
-              "ToolTip": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\appsettings.json",
               "RelativeToolTip": "APS.Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-25T22:42:03.95Z",
+              "WhenOpened": "2024-08-26T19:27:10.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApdatadbContext.cs",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\ApdatadbContext.cs",
+              "RelativeDocumentMoniker": "APS.Data\\Models\\ApdatadbContext.cs",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Data\\Models\\ApdatadbContext.cs",
+              "RelativeToolTip": "APS.Data\\Models\\ApdatadbContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwB8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:26:17.536Z",
               "EditorCaption": ""
             }
           ]

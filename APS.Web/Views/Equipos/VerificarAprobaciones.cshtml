@@ -1,0 +1,22 @@
+﻿@model AprobacionesViewModel
+
+<h2>Verificar Criterios de Aprobación</h2>
+
+<form asp-action="VerificarAprobaciones" method="post">
+    <div>
+        <label><input type="checkbox" asp-for="EstadoFisico" /> El equipo no presenta daños visibles graves.</label>
+    </div>
+    <div>
+        <label><input type="checkbox" asp-for="MarcaAprobada" /> La marca del equipo está en la lista de marcas aprobadas.</label>
+    </div>
+    <div>
+        <label><input type="checkbox" asp-for="SinHumedadCalor" /> El equipo no presenta rastros de humedad o exposición a calor excesivo.</label>
+    </div>
+    <div>
+        <label><input type="checkbox" asp-for="ProcesadorCompatible" /> El procesador es de una generación compatible.</label>
+    </div>
+    <div>
+        <label><input type="checkbox" asp-for="NoObsoleto" /> El equipo no ha sido declarado obsoleto por el fabricante.</label>
+    </div>
+    <input type="submit" value="Validar Aprobaciones" />
+</form>

@@ -17,91 +17,91 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = APS.Web
 build_property.RootNamespace = APS.Web
-build_property.ProjectDir = D:\github\PALN_SC-601-Grupo-4\APS.Web\
+build_property.ProjectDir = C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\github\PALN_SC-601-Grupo-4\APS.Web
+build_property.MSBuildProjectDirectory = C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Accounts/Login.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Accounts/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Aprobaciones/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXByb2JhY2lvbmVzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Equipos/Create.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Equipos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Home/Index.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Equipos/EquipoRechazado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc1xFcXVpcG9SZWNoYXphZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Equipos/VerificarAprobaciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc1xWZXJpZmljYXJBcHJvYmFjaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Home/Privacy.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/Error.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/_ErrorPartial.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/_ErrorPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FcnJvclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Create.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Delete.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Details.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Edit.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Index.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/VerEquipos/Delete.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/VerEquipos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyRXF1aXBvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/VerEquipos/Edit.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/VerEquipos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyRXF1aXBvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/VerEquipos/Index.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/VerEquipos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyRXF1aXBvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/_ViewImports.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/_ViewStart.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zoacovwiv9

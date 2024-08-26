@@ -4241,19 +4241,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\XPC\\.nuget\\packages\\": {}
+    "C:\\Users\\noerr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj",
+      "projectUniqueName": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj",
       "projectName": "APS.Data",
-      "projectPath": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj",
-      "packagesPath": "C:\\Users\\XPC\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\obj\\",
+      "projectPath": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj",
+      "packagesPath": "C:\\Users\\noerr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\XPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\noerr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4316,7 +4316,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

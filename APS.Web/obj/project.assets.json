@@ -8063,19 +8063,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\XPC\\.nuget\\packages\\": {}
+    "C:\\Users\\noerr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\APS.Web.csproj",
+      "projectUniqueName": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\APS.Web.csproj",
       "projectName": "APS.Web",
-      "projectPath": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\APS.Web.csproj",
-      "packagesPath": "C:\\Users\\XPC\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Web\\obj\\",
+      "projectPath": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\APS.Web.csproj",
+      "packagesPath": "C:\\Users\\noerr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\XPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\noerr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8090,11 +8090,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj": {
-              "projectPath": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj"
+            "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj": {
+              "projectPath": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Data\\APS.Data.csproj"
             },
-            "D:\\github\\PALN_SC-601-Grupo-4\\APS.Security\\APS.Security.csproj": {
-              "projectPath": "D:\\github\\PALN_SC-601-Grupo-4\\APS.Security\\APS.Security.csproj"
+            "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Security\\APS.Security.csproj": {
+              "projectPath": "C:\\Users\\noerr\\source\\repos\\PALN_SC-601-Grupo-4\\APS.Security\\APS.Security.csproj"
             }
           }
         }
@@ -8144,7 +8144,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
