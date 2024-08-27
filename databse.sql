@@ -185,3 +185,10 @@ INSERT INTO [dbo].[aprobaciones] ([criterio], [cumple]) VALUES
 ('El procesador es de una generación compatible (10ª generación de Intel o posterior).', 0),
 ('El equipo no ha sido declarado obsoleto por el fabricante.', 0);
 GO
+
+CREATE TABLE [dbo].[HistorialEquipos] (
+    [HistorialId] INT IDENTITY(1,1) NOT NULL,
+    [EquipoId] INT NOT NULL,
+    [DescripcionCambio] NVARCHAR(MAX) NOT NULL,
+    [FechaCambio] DATETIME NOT NULL DEFAULT GETDATE()
+);

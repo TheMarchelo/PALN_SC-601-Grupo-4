@@ -1046,3 +1046,5 @@ C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\refint\
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.pdb
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.genruntimeconfig.cache
 C:\Users\noerr\source\repos\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\ref\APS.Web.dll
+D:\github\PALN_SC-601-Grupo-4\APS.Web\bin\Debug\net8.0\Rotativa.AspNetCore.dll
+D:\github\PALN_SC-601-Grupo-4\APS.Web\obj\Debug\net8.0\APS.Web.MvcApplicationPartsAssemblyInfo.cs
