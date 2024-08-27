@@ -1,10 +1,12 @@
 ﻿using APS.Data.Models;
+using APS.Web.Filters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
 namespace APS.Web.Controllers
 {
+    [ServiceFilter(typeof(CustomAuthorizationFilter))]
     public class VerEquiposController : Controller
     {
         private readonly ApdatadbContext _context;

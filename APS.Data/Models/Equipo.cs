@@ -26,5 +26,8 @@
 
         // Relación opcional con la entidad User
         public virtual User? Usuario { get; set; }  // Relación opcional
+
+        // Relación con HistorialEquipo
+        public virtual ICollection<HistorialEquipo> HistorialEquipos { get; set; } = new List<HistorialEquipo>();
     }
 }

@@ -46,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc1xWZXJpZmljYXJBcHJvYmFjaW9uZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/GestionEquipos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkVxdWlwb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/GestionEquipos/ReporteHistorialPdf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkVxdWlwb3NcUmVwb3J0ZUhpc3RvcmlhbFBkZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/noerr/source/repos/PALN_SC-601-Grupo-4/APS.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
