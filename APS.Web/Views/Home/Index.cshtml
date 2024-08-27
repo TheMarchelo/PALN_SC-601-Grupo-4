@@ -1,9 +1,19 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio - Computek";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <div class="jumbotron text-center bg-primary text-white shadow">
+        <h1 class="display-4">Bienvenido a Computek</h1>
+        <p class="lead">Sistema de Ingreso y Gestión de Equipos</p>
+    </div>
+
+    <div class="text-center mt-5">
+        <p class="text-muted">Computek &copy; 2024. Todos los derechos reservados.</p>
+    </div>
 </div>
 
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+}
