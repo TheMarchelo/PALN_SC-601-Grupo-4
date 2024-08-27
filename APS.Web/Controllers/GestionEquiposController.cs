@@ -1,10 +1,12 @@
 ﻿using APS.Data.Models;
+using APS.Web.Filters;
 using Microsoft.AspNetCore.Mvc;
 using Rotativa.AspNetCore;
 using System.Linq;
 
 namespace APS.Web.Controllers
 {
+    [ServiceFilter(typeof(CustomAuthorizationFilter))]
     public class GestionEquiposController : Controller
     {
         private readonly ApdatadbContext _context;

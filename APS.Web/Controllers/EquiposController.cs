@@ -6,11 +6,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Rotativa.AspNetCore;
+using APS.Web.Filters;
 
 namespace APS.Web.Controllers
 {
+    [ServiceFilter(typeof(CustomAuthorizationFilter))]
     public class EquiposController : Controller
     {
+
         private readonly ApdatadbContext _context;
 
         // Constructor con inyección de dependencias
